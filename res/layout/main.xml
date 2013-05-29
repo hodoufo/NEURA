@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_tirarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photo" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView_imagem"
+        android:layout_width="221dp"
+        android:layout_height="285dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/photo"
+        android:src="@drawable/ic_launcher"
+        android:textAlignment="center" >
+    </ImageView>
+
+
+</LinearLayout>
