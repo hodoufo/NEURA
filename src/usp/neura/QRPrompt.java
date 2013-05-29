@@ -35,14 +35,7 @@ public class QRPrompt extends Activity {
             
             }
         });
-        
-        Button sendQRButton = (Button)this.findViewById(R.id.button_enviar);
-        sendQRButton.setOnClickListener(new View.OnClickListener() {
-        	@Override
-        	public void onClick(View v) {
-        		
-        	}
-        });    
+      
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {  
